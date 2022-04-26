@@ -1,0 +1,57 @@
+# Scrum
+- desafios de desenvolvimento de software
+objetivos de negocio -> processo de desenvolvimento -> software
+			*concepção
+			*analise e design
+			*desenvolvimento
+			*testes
+			*implantação
+
+# Gestao de projetos 
+- Tradicional (Waterfall): só permite que o projeot avance quando uma fase está inteiramente completa.
+- Ágil: Software constuido por partes(incrementavel) e cada parte excuta-se em um ciclo (interativo).
+
+# SCRUM
+- É um dos frameworks de gerenciamento de projetos ágeis;
+- Projetos usando equipes peuqenas e multidiciplinar produzem melhores resultados
+- Conversar mais e escrever menos;
+- Demonstrar o software aos usuarios e obter feedbacks constantes;
+- Requisitos mudam ao longo do tempo
+- Aprende progressivamente com o uso do softwares;
+
+# Papeis e responsabilidades
+* Product Owner (P.O.)
+- Representante da aárea de negocios;
+- PO não é um comité;
+- Define funcionalidades do software(Product Backlog);
+- Prioriza as funcionalidades de acordo com o valor do negocio;
+- Garante que o time de desenvolvimento entenda os itens do backlog no nivel necessario.
+
+* SCRUM master (SM)
+- Garantir o uso correto do SCRUM
+- Não é gerente de projetos 
+- Age como facilitador
+- Auxilia o PO no planejamento e estimativas do backlog
+- Auxilia a equipe a remover impedimentos
+- Treina o time em auto gerenciamento e interdiciplinaridade
+
+* Time de desenvolvimento (DEV)
+- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo o que for necessario para entregar o software funcionando
+
+# Cerimonias Scrum
+- Time box: tempo máximo para fazer uma cerimonia ou sprint
+- Sprint: é o principal evento do Scrum, duração de um sprint: 30 dias corridos (ou mais)
+* composição de uma sprint:
+- planejamento da sprint
+- reunioes diarias (Daily meeting)
+- Revisão da sprint (Review)
+- Retrospectiva da sprint
+
+# Release PLanning
+- release planning de multiplas squads
+- release planning de projeto
+
+# Product Backlog
+- Composto por Épicos e Estórias
+- Epicos: incrementa sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir
+- Estoria: detalhamento dos épicos, um epico normalmente se divide em varias estorias, onde ficam descritos o que deve acontecer e suas regras de negocio. 

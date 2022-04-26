@@ -1,0 +1,56 @@
+# Git
+
+# Comandos para terminais
+windows    	Unix
+
+dir		ls		comando para listar
+cd		cd		navegar entre pastas
+cd ..		cd ..		retroceder a pasta
+cls		clear/ CTRL+L	limpa o terminal
+tab		tab		atalho para completar o diretorio
+mkdir		mkdir		criar uma pasta
+echo		echo		printa de volta no terminal uma frase
+>		>		redirecionamento de fluxo
+del		del		deleta arquivos
+rmdir /s /q	rm -re		deleta a pasta
+
+# Funcionamento do GIT
+- SHA1
+- A encriptação gera conjunto de caracteres indentificador de 40 digitos.
+
+# Objetos internos GIT
+* BLOB
+- Vai conter metadados dentro dele
+- Então o objeto BLOB vai ter o tipo do objeto, o tamanho dessa string ou desse arquivo
+- Metadados do GIT]
+
+* TREES
+- Elas armazenam BLOBS, entção pe uma crescente, sendo a BLOB o bloco basico de composição, e a tree armazenando e apontando para tipos de BLOBS diferentes
+- Tem metadados
+- Guarda o nome dos arquivos 
+- Vai ser responsavel por montar toda estrutura onde estão localizados esses arquivos
+- Podem apontar para outra TREE
+
+* COMMIT
+- É o objeto que vai juntar tudo, vai dar sentido para alteração que você ta fazendo.
+- Ele pode apontar para uma TREE, o ultimo COMMIT realizado antes dele, para o autor e para uma mensagem
+- Da uma explicação sobre aqueles arquivos e pastas
+- Timestamp (Carimbo de tempo) leva o horario e a data de quando ele foi criado;
+
+# Chave SSH
+- É uma forma de estabelecer uma conexão segura entre duas maquinas(e encriptada).
+- Usando um codigo da maquina, podemos enviar repositorios sem usar senha, enviando diretamente do GIT para o Github.
+
+# Criando chave SSH
+* Comandos:
+ssh-keygen -t ed25519 -c email@email.com
+
+* Validando a chave:
+eval $(ssh-agent -s) 	vai retornar um codigo para usar no proximo comando
+ssh-add (e a chave do local na frente id_edXXXX)
+
+# Comandos com git
+- git init: iniciar repositorio no git
+- git add: mover arquivos e dar inicio
+- git commit: dar inicio a um commit
+

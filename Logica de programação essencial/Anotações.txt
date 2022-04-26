@@ -1,0 +1,22 @@
+# O que é logica?
+"Coerência de raciocínio, de ideias"
+
+# Lógica de programação
+- significa apenas contextualizar a lógica na programação de computadores, muscando a melhorar sequencia de ações para solucionar um problema
+- Metacognição: pensar como você pensa
+- Abstração é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando caracteristicas menos importantes aou acidentais.
+
+# Algoritmo
+- É uma sequencia de passos que resolve um problema.
+
+# Pseudocódico
+- É uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples
+
+# Fluxograma
+- É uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequencia lógica e coerente do fluxo de dados.
+
+# Estrutura de repetição
+- É uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou contador.
+
+# Portugol
+- Uma pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma simples e intuitiva, indenpendente de linguagem de programação.
